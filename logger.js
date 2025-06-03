@@ -1,5 +1,6 @@
-async function obtenerInfoIP() { // Reemplaza con tu token real
-  const response = await fetch(`https://ipinfo.io/json?token=34d1809199c50b`);
+async function obtenerInfoIP() {
+  const apiKey = '34d1809199c50b';
+  const response = await fetch(`https://ipinfo.io/json?token=${apiKey}`);
   const data = await response.json();
   return data;  // Objeto con toda la info (ip, ciudad, región, país, org, timezone, etc)
 }
